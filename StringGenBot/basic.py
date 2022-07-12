@@ -21,5 +21,5 @@ async def start(bot: Client, msg: Message):
 
                         InlineKeyboardButton("Close 🔐"),
 
-                    ]
+                    ])
     )
