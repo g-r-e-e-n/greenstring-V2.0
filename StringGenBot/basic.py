@@ -16,5 +16,10 @@ async def start(bot: Client, msg: Message):
         msg.chat.id,
         Data.START.format(msg.from_user.mention, mention),
         disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup(Data.buttons)
+        reply_markup=InlineKeyboardMarkup(
+        [
+
+                        InlineKeyboardButton("Close 🔐"),
+
+                    ]
     )
